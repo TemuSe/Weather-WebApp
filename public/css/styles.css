@@ -1,0 +1,70 @@
+body{
+    background-image: url(/css/images/bg.jpg);
+}
+
+h1{
+    color: darkolivegreen;
+}
+h2{
+    padding-top: 5rem;
+    padding-bottom: 12rem;
+    color: darkolivegreen;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.mPart{
+    background-color: snow;
+    text-align: center;
+    margin: 50px 250px;
+    padding-top: 20px;
+}
+
+.d1{
+    margin-top: 70px;
+}
+
+.inpt{
+    border-color: beige;
+    border-radius: 10px;
+    padding: 10px;  
+}
+.inpt:hover{
+    color: rgb(215, 208, 173);
+}
+
+.btn1{
+    border-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn1:hover{
+    color: white;
+}
+.hEjs{
+    border: solid #ef6262;
+    border-radius: 20px;
+}
+.ejsPart{
+    text-align: center;
+    background-color: snow;
+    margin: 50px 250px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.p1{
+    color: #ef6262;
+    font-size: 18px;
+}
+#info{
+    margin-left: auto;
+    margin-right: auto;
+ }
+#info td{
+    padding: 20px;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/css/images/cloudy.png">
+</head>
+<body>
+    <div class="ejsPart">
+        <h1 class="hEjs"><%=nCity%></h1>
+        <table id="info">
+            <tr>
+                <td><p class="p1"><%=describe%></p></td>
+                <td><p class="p1">Temperature: <%=hotness%> &#8451</p></td>
+                <td><p class="p1">Feels like: <%=feels%> &#8451</p></td>
+            </tr>
+            <tr>
+                <td><img class= imgEJS src="<%=imageW%>"></td>
+                <td><p class="p1">Max: <%=max%> &#8451</p></td>
+                <td><p class="p1">Min: <%=min%> &#8451</p></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><p class="p1">Pressure: <%=press%> hpa</p></td>
+                <td><p class="p1">Humidity: <%=humi%> %</p></td>
+            </tr>
+            
+        </table>
+    </div>
+    <footer>
+        <p>© 2022 Yotor. All rights reserved.</p>
+    </footer>
+</body>
+</html>
